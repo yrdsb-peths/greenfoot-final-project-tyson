@@ -129,6 +129,21 @@ public class Player extends Actor
                 setLocation(getX(),getY()-3);
             }
         }
-        
+        if(isTouching(WallLength.class)){
+            if(facing.equals("up")){
+                setLocation(getX(),getY()+2);
+            }
+            if(facing.equals("down")){
+                setLocation(getX(),getY()-2);
+            }
+        }
+        if(isTouching(WallWidth.class)){
+            if(facing.equals("left")){
+                setLocation(getX()+2,getY());
+            }
+            if(facing.equals("right")){
+                setLocation(getX()-2,getY());
+            }
+        }
     }
 }
