@@ -35,6 +35,12 @@ public class LV2 extends World
         Barrier B6 = new Barrier();
         Barrier B7 = new Barrier();
         Barrier B8 = new Barrier();
+        Barrier B9 = new Barrier();
+        Barrier B10 = new Barrier();
+        Barrier B11 = new Barrier();
+        Barrier B12 = new Barrier();
+        Barrier B13 = new Barrier();
+        Barrier B14 = new Barrier();
         addObject(B1,70,380);
         addObject(B2,70,250);
         addObject(B3,70,200);
@@ -43,6 +49,12 @@ public class LV2 extends World
         addObject(B6,230,300);
         addObject(B7,130,100);
         addObject(B8,130,150);
+        addObject(B9,230,360);
+        addObject(B10,330,200);
+        addObject(B11,330,250);
+        addObject(B12,255,45);
+        addObject(B13,255,15);
+        addObject(B14,360,380);
         Barrier2 b1 = new Barrier2();
         Barrier2 b2 = new Barrier2();
         Barrier2 b3 = new Barrier2();
@@ -50,6 +62,11 @@ public class LV2 extends World
         Barrier2 b5 = new Barrier2();
         Barrier2 b6 = new Barrier2();
         Barrier2 b7 = new Barrier2();
+        Barrier2 b8 = new Barrier2();
+        Barrier2 b9 = new Barrier2();
+        Barrier2 b10 = new Barrier2();
+        Barrier2 b11 = new Barrier2();
+        Barrier2 b12 = new Barrier2();
         addObject(b1,30,275);
         addObject(b2,30,100);
         addObject(b3,100,170);
@@ -57,5 +74,9 @@ public class LV2 extends World
         addObject(b5,150,170);
         addObject(b6,200,170);
         addObject(b7,250,170);
+        addObject(b8,300,170);
+        addObject(b9,350,170);
+        addObject(b11,230,70);
+        addObject(b12,350,350);
     }
 }
