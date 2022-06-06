@@ -25,7 +25,7 @@ public class TitleSc extends World
     {
         if(Greenfoot.isKeyDown("space"))
         {
-            MyWorld gameWorld = new MyWorld();
+            LV2 gameWorld = new LV2();
             Greenfoot.setWorld(gameWorld);
         }
     }
