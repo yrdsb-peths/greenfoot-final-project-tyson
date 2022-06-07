@@ -9,14 +9,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Barrier extends Actor
 {
     GreenfootImage wall = new GreenfootImage("images/wallsArt/moss2.png");
+    GreenfootImage branch = new GreenfootImage("images/wallsArt/SakuraBranch.png");
     /**
      * Act - do whatever the Barrier wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public Barrier()
+    public Barrier(String type)
     {
-        setImage(wall);
-        wall.scale(25,70);
+        if(type.equals("1")){
+            setImage(wall);
+            wall.scale(25,70);    
+        }else if(type.equals("2")){
+            setImage(branch);
+            wall.scale(25,70);
+        }
+        
     }
     public void act()
     {

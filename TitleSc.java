@@ -25,7 +25,7 @@ public class TitleSc extends World
     {
         if(Greenfoot.isKeyDown("space"))
         {
-            LV2 gameWorld = new LV2();
+            LV1 gameWorld = new LV1();
             Greenfoot.setWorld(gameWorld);
         }
     }
@@ -38,24 +38,24 @@ public class TitleSc extends World
     {
         Player player = new Player();
         addObject(player,431,51);
-        Barrier barrier = new Barrier();
+        Barrier barrier = new Barrier("1");
         addObject(barrier,488,50);
         
         
-        Barrier2 barrier2 = new Barrier2();
+        Barrier2 barrier2 = new Barrier2("1");
         addObject(barrier2,444,95);
         barrier2.setLocation(457,92);
-        Barrier2 barrier22 = new Barrier2();
+        Barrier2 barrier22 = new Barrier2("1");
         addObject(barrier22,500,93);
         barrier22.setLocation(508,92);
-        Barrier2 barrier23 = new Barrier2();
+        Barrier2 barrier23 = new Barrier2("1");
         addObject(barrier23,572,92);
         player.setLocation(426,40);
         barrier.setLocation(485,31);
         
         barrier2.setLocation(451,86);
         barrier.setLocation(483,23);
-        Label L1 = new Label("Use WASD or Arrow keys to move",40);
+        Label L1 = new Label("Use WASD to move",40);
         addObject(L1,300,283);
         Label L2 = new Label("Press SPACE to Start",40);
         addObject(L2,300,330);
