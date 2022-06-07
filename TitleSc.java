@@ -40,8 +40,8 @@ public class TitleSc extends World
         addObject(player,431,51);
         Barrier barrier = new Barrier();
         addObject(barrier,488,50);
-        PortalEnd portalEnd = new PortalEnd();
-        addObject(portalEnd,554,46);
+        
+        
         Barrier2 barrier2 = new Barrier2();
         addObject(barrier2,444,95);
         barrier2.setLocation(457,92);
@@ -52,7 +52,7 @@ public class TitleSc extends World
         addObject(barrier23,572,92);
         player.setLocation(426,40);
         barrier.setLocation(485,31);
-        portalEnd.setLocation(546,30);
+        
         barrier2.setLocation(451,86);
         barrier.setLocation(483,23);
         Label L1 = new Label("Use WASD or Arrow keys to move",40);

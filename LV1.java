@@ -6,19 +6,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class MyWorld extends World
+public class LV1 extends LV
 {
 
     /**
      * Constructor for objects of class MyWorld.
      * 
      */
-    public MyWorld()
+    public LV1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
-        PortalEnd gate = new PortalEnd();
-        addObject(gate,570,110);
+        
+        LV2 lv2 = new LV2();
+        PortalEnd portal = new PortalEnd(lv2);
+        
+        addObject(portal,570,110);
         WallLength WL = new WallLength();
         WallLength WR = new WallLength();
         WallWidth WU = new WallWidth();
