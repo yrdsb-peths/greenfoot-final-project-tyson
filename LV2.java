@@ -42,6 +42,12 @@ public class LV2 extends LV
         Barrier B12 = new Barrier("2");
         Barrier B13 = new Barrier("2");
         Barrier B14 = new Barrier("2");
+        Barrier B15 = new Barrier("2");
+        Barrier B16 = new Barrier("2");
+        Barrier B17 = new Barrier("2");
+        Barrier B18 = new Barrier("2");
+        Barrier B19 = new Barrier("2");
+        Barrier B20 = new Barrier("2");
         addObject(B1,70,380);
         addObject(B2,70,250);
         addObject(B3,70,200);
@@ -56,6 +62,12 @@ public class LV2 extends LV
         addObject(B12,255,45);
         addObject(B13,255,15);
         addObject(B14,360,380);
+        addObject(B15,500,200);
+        addObject(B16,430,300);
+        addObject(B17,500,260);
+        addObject(B18,500,170);
+        addObject(B19,360,130);
+        addObject(B20,360,90);
         Barrier2 b1 = new Barrier2("2");
         Barrier2 b2 = new Barrier2("2");
         Barrier2 b3 = new Barrier2("2");
@@ -68,6 +80,11 @@ public class LV2 extends LV
         Barrier2 b10 = new Barrier2("2");
         Barrier2 b11 = new Barrier2("2");
         Barrier2 b12 = new Barrier2("2");
+        Barrier2 b13 = new Barrier2("2");
+        Barrier2 b14 = new Barrier2("2");
+        Barrier2 b15 = new Barrier2("2");
+        Barrier2 b16 = new Barrier2("2");
+        Barrier2 b17 = new Barrier2("2");
         addObject(b1,30,275);
         addObject(b2,30,100);
         addObject(b3,100,170);
@@ -79,5 +96,10 @@ public class LV2 extends LV
         addObject(b9,350,170);
         addObject(b11,230,70);
         addObject(b12,350,350);
+        addObject(b13,400,170);
+        addObject(b14,260,70);
+        addObject(b15,530,360);
+        addObject(b16,510,60);
+        addObject(b17,460,60);
     }
 }
