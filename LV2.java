@@ -17,7 +17,9 @@ public class LV2 extends LV
     public LV2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-         
+        LV3 lv3 = new LV3();
+        PortalEnd portal = new PortalEnd(lv3);
+        addObject(portal,30,220);
         WallLength WL = new WallLength();
         WallLength WR = new WallLength();
         WallWidth WU = new WallWidth();
@@ -101,5 +103,7 @@ public class LV2 extends LV
         addObject(b15,530,360);
         addObject(b16,510,60);
         addObject(b17,460,60);
+        GateV G1 = new GateV();
+        addObject(G1,130,30);
     }
 }
