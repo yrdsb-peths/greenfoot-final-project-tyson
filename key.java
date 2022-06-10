@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class key extends Actor
+public class Key extends Actor
 {
     GreenfootImage key1 = new GreenfootImage("images/GateItems/Key.png");
     /**

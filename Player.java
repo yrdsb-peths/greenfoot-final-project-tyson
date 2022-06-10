@@ -96,10 +96,12 @@ public class Player extends Actor
             facing = "down";
             setLocation(getX(),getY()+2);
         }
-        wallColision();
+        wallCollision();
+        unlock();
         animate();
+        
     }
-    public void wallColision()
+    public void wallCollision()
     {
         if(isTouching(Barrier.class)){
             if(facing.equals("right")){
@@ -148,9 +150,9 @@ public class Player extends Actor
     }
     public void unlock()
     {
-        if(isTouching(key.class))
+        if(isTouching(Key.class))
         {
-            removeTouching(key.class);
+            removeTouching(Key.class);
             
         }
     }

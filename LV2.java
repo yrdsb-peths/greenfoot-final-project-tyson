@@ -105,7 +105,7 @@ public class LV2 extends LV
         addObject(b17,460,60);
         GateV G1 = new GateV();
         addObject(G1,130,30);
-        key K1 = new key();
+        Key K1 = new Key();
         addObject(K1,400,380);
     }
 }
