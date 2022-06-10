@@ -152,6 +152,8 @@ public class Player extends Actor
     {
         if(isTouching(Key.class))
         {
+            LV2 world = (LV2) getWorld();
+            world.removeGate();
             removeTouching(Key.class);
             
         }

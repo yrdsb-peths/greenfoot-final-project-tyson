@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class LV2 extends LV
 {
-    
+    public GateV gate;
     
     /**
      * Constructor for objects of class LV2.
@@ -103,9 +103,13 @@ public class LV2 extends LV
         addObject(b15,530,360);
         addObject(b16,510,60);
         addObject(b17,460,60);
-        GateV G1 = new GateV();
-        addObject(G1,130,30);
+        gate = new GateV();
+        addObject(gate,130,30);
         Key K1 = new Key();
         addObject(K1,400,380);
+    }
+    public void removeGate()
+    {
+        removeObject(gate);
     }
 }
