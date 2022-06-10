@@ -45,10 +45,10 @@ public class TitleSc extends World
         Barrier2 barrier2 = new Barrier2("1");
         addObject(barrier2,444,95);
         barrier2.setLocation(457,92);
-        Barrier2 barrier22 = new Barrier2("1");
+        Barrier2 barrier22 = new Barrier2("2");
         addObject(barrier22,500,93);
         barrier22.setLocation(508,92);
-        Barrier2 barrier23 = new Barrier2("1");
+        Barrier2 barrier23 = new Barrier2("2");
         addObject(barrier23,572,92);
         player.setLocation(426,40);
         barrier.setLocation(485,31);
