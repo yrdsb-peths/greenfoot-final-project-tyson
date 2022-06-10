@@ -47,7 +47,7 @@ public class Player extends Actor
     }
     public void animate()
     {
-        if(animationTime.millisElapsed() < 400)
+        if(animationTime.millisElapsed() < 300)
         {
             return;
         }
@@ -81,17 +81,17 @@ public class Player extends Actor
             facing = "left";
             move(-2);
         }
-        if(Greenfoot.isKeyDown("right"))
+        else if(Greenfoot.isKeyDown("right"))
         {
             facing = "right";
             move(2);
         }
-        if(Greenfoot.isKeyDown("up"))
+        else if(Greenfoot.isKeyDown("up"))
         {
             facing = "up";
             setLocation(getX(),getY()-2);
         }
-        if(Greenfoot.isKeyDown("down"))
+        else if(Greenfoot.isKeyDown("down"))
         {
             facing = "down";
             setLocation(getX(),getY()+2);
