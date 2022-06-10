@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class key extends Actor
 {
-    GreenfootImage key = new GreenfootImage("images/GateItems/key.png");
+    GreenfootImage key1 = new GreenfootImage("images/GateItems/Key.png");
     /**
      * Act - do whatever the key wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -16,5 +16,6 @@ public class key extends Actor
     public void act()
     {
         // Add your action code here.
+        key1.scale(25,25);
     }
 }
