@@ -86,7 +86,7 @@ public class LV1 extends LV
         addObject(b5,200,222);
         addObject(b6,170,300);
         addObject(b7,230,300);
-        addObject(b8,333,233);
+        addObject(b8,331,233);
         addObject(b9,400,322);
         addObject(b10,450,322);
         addObject(b11,450,245);

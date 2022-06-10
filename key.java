@@ -16,6 +16,7 @@ public class key extends Actor
     public void act()
     {
         // Add your action code here.
+        setImage(key1);
         key1.scale(25,25);
     }
 }

@@ -150,7 +150,19 @@ public class Player extends Actor
     {
         if(isTouching(key.class)){
             removeTouching(key.class);
-            getWorld().removeObject(GateV.class);
+            
         }
     }
 }
+/**
+public void setLocation(int x, int y)
+{
+    int oldX= getX();
+    int oldY = getY();
+    super.setLocation(x,y);
+    if(!getIntersectingObject(Barrier.class).isEmpty())
+    {
+        super.setLocation(oldX,oldY);
+    }
+}
+*/
