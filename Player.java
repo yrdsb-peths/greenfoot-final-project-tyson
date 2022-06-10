@@ -146,4 +146,11 @@ public class Player extends Actor
             }
         }
     }
+    public void unlock()
+    {
+        if(isTouching(key.class)){
+            removeTouching(key.class);
+            getWorld().removeObject(GateV.class);
+        }
+    }
 }
