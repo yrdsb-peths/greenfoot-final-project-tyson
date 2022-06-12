@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Barrier2 extends Actor
 {
+    //Horizontal Wall
     GreenfootImage wall = new GreenfootImage("images/wallsArt/moss2.png");
     GreenfootImage branch = new GreenfootImage("images/wallsArt/SakuraBlock2.png");
     GreenfootImage rock = new GreenfootImage("images/wallsArt/asteroid2.png");
@@ -17,6 +18,7 @@ public class Barrier2 extends Actor
      */
     public Barrier2(String type)
     {
+        //Different sprite apperance per world/number
         if(type.equals("1")){
             setImage(wall);
             wall.scale(70,25);    

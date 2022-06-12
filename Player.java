@@ -45,7 +45,7 @@ public class Player extends Actor
         animationTime.mark();
         setImage(downCycle[1]);
     }
-    public void animate()
+    public void animate() //Animation program
     {
         if(animationTime.millisElapsed() < 300)
         {
@@ -75,7 +75,8 @@ public class Player extends Actor
     }
     public void act()
     {
-        // Add your action code here.
+        //Else if is so you can move in 2 directions at once to 
+        //break main barriers
         if(Greenfoot.isKeyDown("left"))
         {
             facing = "left";
@@ -102,8 +103,9 @@ public class Player extends Actor
         animate();
         
     }
-    public void wallCollision()
+    public void wallCollision() 
     {
+        //Any collison the player should be interacting with
         if(isTouching(Barrier.class)){
             if(facing.equals("right")){
                 setLocation(getX()-2,getY());
@@ -181,6 +183,8 @@ public class Player extends Actor
             }
         }
     }
+    
+    //For how the player interacts with keys on the map.
     public void unlock()
     {
         if(isTouching(Key.class))
