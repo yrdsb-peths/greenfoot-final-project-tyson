@@ -12,4 +12,6 @@ comment4.params=
 comment4.target=void\ wallCollision()
 comment5.params=
 comment5.target=void\ unlock()
-numComments=6
+comment6.params=
+comment6.target=void\ unlock2()
+numComments=7

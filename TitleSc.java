@@ -37,28 +37,21 @@ public class TitleSc extends World
     private void prepare()
     {
         Player player = new Player();
-        addObject(player,431,51);
+        addObject(player,550,51);
         Barrier barrier = new Barrier("1");
         addObject(barrier,488,50);
-        
-        
-        Barrier2 barrier2 = new Barrier2("1");
-        addObject(barrier2,444,95);
-        barrier2.setLocation(457,92);
-        Barrier2 barrier22 = new Barrier2("2");
+        Barrier2 barrier22 = new Barrier2("3");
         addObject(barrier22,500,93);
         barrier22.setLocation(508,92);
         Barrier2 barrier23 = new Barrier2("2");
         addObject(barrier23,572,92);
         player.setLocation(426,40);
         barrier.setLocation(485,31);
-        
-        barrier2.setLocation(451,86);
-        barrier.setLocation(483,23);
+
         Label L1 = new Label("Use Arrow keys to move",40);
         addObject(L1,300,283);
         Label L2 = new Label("Press SPACE to Start",40);
         addObject(L2,300,330);
-        barrier2.setLocation(449,90);
+        player.setLocation(540,46);
     }
 }

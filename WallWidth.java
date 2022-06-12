@@ -16,7 +16,7 @@ public class WallWidth extends Actor
     public WallWidth()
     {
         setImage(wall);
-        wall.scale(600,5);
+        wall.scale(5,400);
     }
     public void act()
     {

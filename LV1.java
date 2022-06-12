@@ -21,10 +21,10 @@ public class LV1 extends LV
         PortalEnd portal = new PortalEnd(lv2);
         
         addObject(portal,570,110);
-        WallLength WL = new WallLength();
-        WallLength WR = new WallLength();
-        WallWidth WU = new WallWidth();
-        WallWidth WD = new WallWidth();
+        WallLength WU = new WallLength();
+        WallLength WD = new WallLength();
+        WallWidth WL = new WallWidth();
+        WallWidth WR = new WallWidth();
         addObject(WL,0,200);
         addObject(WR,600,200);
         addObject(WU,300,0);

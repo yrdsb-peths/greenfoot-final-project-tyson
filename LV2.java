@@ -20,10 +20,10 @@ public class LV2 extends LV
         LV3 lv3 = new LV3();
         PortalEnd portal = new PortalEnd(lv3);
         addObject(portal,30,220);
-        WallLength WL = new WallLength();
-        WallLength WR = new WallLength();
-        WallWidth WU = new WallWidth();
-        WallWidth WD = new WallWidth();
+        WallLength WU = new WallLength();
+        WallLength WD = new WallLength();
+        WallWidth WL = new WallWidth();
+        WallWidth WR = new WallWidth();
         addObject(WL,0,200);
         addObject(WR,600,200);
         addObject(WU,300,0);
@@ -103,7 +103,7 @@ public class LV2 extends LV
         addObject(b15,530,360);
         addObject(b16,510,60);
         addObject(b17,460,60);
-        gate = new GateV();
+        gate = new GateV("1");
         addObject(gate,130,30);
         Key K1 = new Key();
         addObject(K1,400,380);

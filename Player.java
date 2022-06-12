@@ -98,6 +98,7 @@ public class Player extends Actor
         }
         wallCollision();
         unlock();
+        unlock2();
         animate();
         
     }
@@ -133,7 +134,7 @@ public class Player extends Actor
         }
         if(isTouching(WallLength.class)){
             if(facing.equals("up")){
-                setLocation(getX(),getY()+5);
+                setLocation(getX(),getY()+10);
             }
             if(facing.equals("down")){
                 setLocation(getX(),getY()-5);
@@ -155,6 +156,30 @@ public class Player extends Actor
                 setLocation(getX()-2,getY());
             }
         }
+        if(isTouching(GateV2.class)){
+            if(facing.equals("left")){
+                setLocation(getX()+2,getY());
+            }
+            if(facing.equals("right")){
+                setLocation(getX()-2,getY());
+            }
+        }
+        if(isTouching(GateV3.class)){
+            if(facing.equals("left")){
+                setLocation(getX()+2,getY());
+            }
+            if(facing.equals("right")){
+                setLocation(getX()-2,getY());
+            }
+        }
+        if(isTouching(GateH.class)){
+            if(facing.equals("up")){
+                setLocation(getX(),getY()+10);
+            }
+            if(facing.equals("down")){
+                setLocation(getX(),getY()-5);
+            }
+        }
     }
     public void unlock()
     {
@@ -164,6 +189,40 @@ public class Player extends Actor
             world.removeGate();
             removeTouching(Key.class);
             
+        }
+    }
+    public void unlock2()
+    {
+        //for Level 3
+        if(isTouching(Key2.class))
+        {
+            LV3 world = (LV3) getWorld();
+            world.removeGate();
+            removeTouching(Key2.class);
+            
+        }
+        if(isTouching(Key3.class))
+        {
+            LV3 world = (LV3) getWorld();
+            world.removeGate2();
+            removeTouching(Key3.class);
+            
+        }
+        if(isTouching(SmallKey.class))
+        {
+            LV3 world = (LV3) getWorld();
+            world.removeGate3();
+            removeTouching(SmallKey.class);
+        }
+        if(isTouching(Key4.class))
+        {
+            removeTouching(Key4.class);
+        }
+        if(isTouching(SmallKey2.class))
+        {
+            LV3 world = (LV3) getWorld();
+            world.removeGate4();
+            removeTouching(SmallKey2.class);
         }
     }
 }
