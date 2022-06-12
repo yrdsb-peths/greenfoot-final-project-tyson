@@ -10,6 +10,7 @@ public class Barrier extends Actor
 {
     GreenfootImage wall = new GreenfootImage("images/wallsArt/moss2.png");
     GreenfootImage branch = new GreenfootImage("images/wallsArt/SakuraBlock1.png");
+    GreenfootImage rock = new GreenfootImage("images/wallsArt/asteroid1.png");
     /**
      * Act - do whatever the Barrier wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -21,7 +22,10 @@ public class Barrier extends Actor
             wall.scale(25,70);    
         }else if(type.equals("2")){
             setImage(branch);
-            wall.scale(25,70);
+            branch.scale(25,70);
+        }else if(type.equals("3")){
+            setImage(rock);
+            rock.scale(25,70);
         }
         
     }
