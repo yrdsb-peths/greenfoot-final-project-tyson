@@ -19,8 +19,9 @@ public class LV3 extends LV
      */
     public LV3()
     {
-        GameEnd lastLV = new GameEnd();
-        addObject(lastLV,30,350);
+        LVEnd lastLV = new LVEnd();
+        PortalEnd portal = new PortalEnd(lastLV);
+        addObject(portal,30,350);
         WallLength WU = new WallLength();
         WallLength WD = new WallLength();
         WallWidth WL = new WallWidth();

@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class TitleSc extends World
 {
-    Label titleLable = new Label("Fantasy Maze",75);
+    Label titleLable = new Label("Fantasy Maze",50);
     /**
      * Constructor for objects of class TitleSc.
      * 
