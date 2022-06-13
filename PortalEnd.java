@@ -1,10 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class PortalEnd here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * If player touching this portal, go to next level
  */
 public class PortalEnd extends Actor
 {
@@ -20,7 +17,6 @@ public class PortalEnd extends Actor
      */
     public void act()
     {
-        // If player touching this portal, go to next level
         if(isTouching(Player.class)){
             Greenfoot.setWorld(nextLevel);
         }

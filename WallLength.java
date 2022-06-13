@@ -1,10 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class WallLength here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * World barrier that goes along the top and bottom of the screen
  */
 public class WallLength extends Actor
 {

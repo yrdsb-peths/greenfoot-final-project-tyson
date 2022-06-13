@@ -1,10 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class WallWidth here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * World barrier that goes along the left and right of the screen
  */
 public class WallWidth extends Actor
 {

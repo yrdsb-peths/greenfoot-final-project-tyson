@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=LV3
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ LV3\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Remove\ gate\ is\ the\ how\ the\ world\ will\ remove\ a\ gate\ from\ play\ \r\n\ when\ the\ player\ calls\ it.\r\n\ Remove\ gate\ 2\ adds\ a\ gate\ that\ was\ hidden\ while\ removing\ a\ seperate\ gate.\r\n
 comment1.params=
 comment1.target=LV3()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ LV3.\r\n\ \r\n

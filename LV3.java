@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class LV3 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Remove gate is the how the world will remove a gate from play 
+ * when the player calls it.
+ * Remove gate 2 adds a gate that was hidden while removing a seperate gate.
  */
 public class LV3 extends LV
 {

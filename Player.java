@@ -1,12 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Player here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Else if in movement is so you can move in 2 directions at once to break main barriers
+ * wallCollison(); is for any collison the player should be interacting with
+ * the unlocks are for how the player interacts with keys on the map. 
  */
-// will be using SpritSheet.png
 public class Player extends Actor
 {
     String facing = "right";
@@ -77,8 +75,7 @@ public class Player extends Actor
     }
     public void act()
     {
-        //Else if is so you can move in 2 directions at once to 
-        //break main barriers
+        
         if(Greenfoot.isKeyDown("a"))
         {
             facing = "left";
@@ -107,7 +104,7 @@ public class Player extends Actor
     }
     public void wallCollision() 
     {
-        //Any collison the player should be interacting with
+        //
         if(isTouching(Barrier.class)){
             if(facing.equals("right")){
                 setLocation(getX()-2,getY());
@@ -186,7 +183,6 @@ public class Player extends Actor
         }
     }
     
-    //For how the player interacts with keys on the map.
     public void unlock()
     {
         if(isTouching(Key.class))
