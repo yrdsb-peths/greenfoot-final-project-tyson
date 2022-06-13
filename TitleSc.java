@@ -48,7 +48,7 @@ public class TitleSc extends World
         player.setLocation(426,40);
         barrier.setLocation(485,31);
 
-        Label L1 = new Label("Use Arrow keys to move",40);
+        Label L1 = new Label("Use WASD keys to move",40);
         addObject(L1,300,283);
         Label L2 = new Label("Press SPACE to Start",40);
         addObject(L2,300,330);

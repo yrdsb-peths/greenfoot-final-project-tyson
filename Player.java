@@ -16,6 +16,8 @@ public class Player extends Actor
     GreenfootImage[] rightCycle = new GreenfootImage[4];
     GreenfootImage[] upCycle = new GreenfootImage[4];
     GreenfootImage[] downCycle = new GreenfootImage[4];
+    GreenfootSound Lock = new GreenfootSound("LockSound.wav");
+    GreenfootSound SmallLock = new GreenfootSound("SmallLock.wav");
     /**
      * Act - do whatever the Player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -77,22 +79,22 @@ public class Player extends Actor
     {
         //Else if is so you can move in 2 directions at once to 
         //break main barriers
-        if(Greenfoot.isKeyDown("left"))
+        if(Greenfoot.isKeyDown("a"))
         {
             facing = "left";
             move(-2);
         }
-        else if(Greenfoot.isKeyDown("right"))
+        else if(Greenfoot.isKeyDown("d"))
         {
             facing = "right";
             move(2);
         }
-        else if(Greenfoot.isKeyDown("up"))
+        else if(Greenfoot.isKeyDown("w"))
         {
             facing = "up";
             setLocation(getX(),getY()-2);
         }
-        else if(Greenfoot.isKeyDown("down"))
+        else if(Greenfoot.isKeyDown("s"))
         {
             facing = "down";
             setLocation(getX(),getY()+2);
@@ -192,7 +194,7 @@ public class Player extends Actor
             LV2 world = (LV2) getWorld();
             world.removeGate();
             removeTouching(Key.class);
-            
+            Lock.play();
         }
     }
     public void unlock2()
@@ -203,30 +205,33 @@ public class Player extends Actor
             LV3 world = (LV3) getWorld();
             world.removeGate();
             removeTouching(Key2.class);
-            
+            Lock.play();
         }
         if(isTouching(Key3.class))
         {
             LV3 world = (LV3) getWorld();
             world.removeGate2();
             removeTouching(Key3.class);
-            
+            Lock.play();
         }
         if(isTouching(SmallKey.class))
         {
             LV3 world = (LV3) getWorld();
             world.removeGate3();
             removeTouching(SmallKey.class);
+            SmallLock.play();
         }
         if(isTouching(Key4.class))
         {
             removeTouching(Key4.class);
+            Lock.play();
         }
         if(isTouching(SmallKey2.class))
         {
             LV3 world = (LV3) getWorld();
             world.removeGate4();
             removeTouching(SmallKey2.class);
+            SmallLock.play();
         }
     }
 }
