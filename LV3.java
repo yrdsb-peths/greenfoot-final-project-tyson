@@ -107,11 +107,9 @@ public class LV3 extends LV
         addObject(gate4,500,210);
         Key2 K1 = new Key2();
         Key3 K2 = new Key3();
-        Key4 K3 = new Key4();
         SmallKey2 star2 = new SmallKey2();
         addObject(K1,120,130);
         addObject(K2,300,30);
-        addObject(K3,330,125);
         addObject(star2,470,380);
     }
     public void removeGate()

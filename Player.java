@@ -217,11 +217,6 @@ public class Player extends Actor
             removeTouching(SmallKey.class);
             SmallLock.play();
         }
-        if(isTouching(Key4.class))
-        {
-            removeTouching(Key4.class);
-            Lock.play();
-        }
         if(isTouching(SmallKey2.class))
         {
             LV3 world = (LV3) getWorld();
