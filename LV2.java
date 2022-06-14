@@ -10,7 +10,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class LV2 extends LV
 {
     public GateV gate;
-    
+    private int timeLeft = 100;
+    SimpleTimer gameTimer = new SimpleTimer();
+    Label time = new Label(timeLeft,25);
+    Label timeText = new Label("Time:",30);
     /**
      * Constructor for objects of class LV2.
      * 
@@ -18,6 +21,8 @@ public class LV2 extends LV
     public LV2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        addObject(timeText,35,15);
+        addObject(time,85,15);
         LV3 lv3 = new LV3();
         PortalEnd portal = new PortalEnd(lv3);
         addObject(portal,30,220);
@@ -108,6 +113,15 @@ public class LV2 extends LV
         addObject(gate,130,30);
         Key K1 = new Key();
         addObject(K1,400,380);
+    }
+    public void act()
+    {
+        if(gameTimer.millisElapsed() >= 1000)
+        {
+            timeLeft--;
+            time.setValue(timeLeft);
+            gameTimer.mark();
+        }
     }
     public void removeGate()
     {

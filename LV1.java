@@ -7,9 +7,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class LV1 extends LV
 {
-    private int timeLeft = 180;
+    private int timeLeft = 60;
     SimpleTimer gameTimer = new SimpleTimer();
-    Label time = new Label(timer,25);
+    Label time = new Label(timeLeft,25);
+    Label timeText = new Label("Time:",30);
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -17,8 +18,8 @@ public class LV1 extends LV
     public LV1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        timeLeft.setLineColor(Color.WHITE);
-        addObject(timeLeft,50,15);
+        addObject(timeText,35,15);
+        addObject(time,85,15);
         LV2 lv2 = new LV2();
         PortalEnd portal = new PortalEnd(lv2);
         
@@ -102,9 +103,8 @@ public class LV1 extends LV
         if(gameTimer.millisElapsed() >= 1000)
         {
             timeLeft--;
-            timeLeft.setValue(time);
+            time.setValue(timeLeft);
             gameTimer.mark();
         }
-
     }
 }

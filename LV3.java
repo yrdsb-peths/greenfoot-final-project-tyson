@@ -15,12 +15,18 @@ public class LV3 extends LV
     public GateH gate3;
     public GateV3 gate4;
     public SmallKey star;
+    private int timeLeft = 200;
+    SimpleTimer gameTimer = new SimpleTimer();
+    Label time = new Label(timeLeft,25);
+    Label timeText = new Label("Time:",30);
     /**
      * Constructor for objects of class LV3.
      * 
      */
     public LV3()
     {
+        addObject(timeText,35,15);
+        addObject(time,85,15);
         LVEnd lastLV = new LVEnd();
         PortalEnd portal = new PortalEnd(lastLV);
         addObject(portal,30,350);
@@ -114,6 +120,15 @@ public class LV3 extends LV
         addObject(K1,120,130);
         addObject(K2,300,30);
         addObject(star2,470,380);
+    }
+    public void act()
+    {
+        if(gameTimer.millisElapsed() >= 1000)
+        {
+            timeLeft--;
+            time.setValue(timeLeft);
+            gameTimer.mark();
+        }
     }
     public void removeGate()
     {
