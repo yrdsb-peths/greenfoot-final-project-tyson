@@ -1,7 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * If player touching this portal, go to next level
+ * If player touching this portal, go to next level. world change item
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class PortalEnd extends Actor
 {

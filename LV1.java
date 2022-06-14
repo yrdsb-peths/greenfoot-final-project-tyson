@@ -1,14 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * First Level
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class LV1 extends LV
 {
-
+    private int timer = 180;
+    SimpleTimer gameTime = new SimpleTimer();
+    Label timeLeft = new Label("Time: "+ timer,10);
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -16,7 +17,7 @@ public class LV1 extends LV
     public LV1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        
+        addObject(timeLeft,25,10);
         LV2 lv2 = new LV2();
         PortalEnd portal = new PortalEnd(lv2);
         
@@ -93,5 +94,14 @@ public class LV1 extends LV
         addObject(b12,510,245);
         addObject(b13,570,245);
         addObject(b14,510,110);
+        
+    }
+    public void act()
+    {
+        if(gameTime.millisElapsed() >= 1000)
+        {
+            timer--;
+        }
+        gameTime.mark();
     }
 }

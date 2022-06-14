@@ -2,6 +2,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * A key type that is small but can still be interacted with
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class SmallKey extends Actor
 {

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Player
-comment0.text=\r\n\ Else\ if\ in\ movement\ is\ so\ you\ can\ move\ in\ 2\ directions\ at\ once\ to\ break\ main\ barriers\r\n\ wallCollison();\ is\ for\ any\ collison\ the\ player\ should\ be\ interacting\ with\r\n\ the\ unlocks\ are\ for\ how\ the\ player\ interacts\ with\ keys\ on\ the\ map.\ \r\n
+comment0.text=\r\n\ Player\ class\r\n\ Else\ if\ in\ movement\ is\ so\ you\ can\ move\ in\ 2\ directions\ at\ once\ to\ break\ main\ barriers\r\n\ wallCollison();\ is\ for\ any\ collison\ the\ player\ should\ be\ interacting\ with\r\n\ the\ unlocks\ are\ for\ how\ the\ player\ interacts\ with\ keys\ on\ the\ map.\ \r\n\ Author\:Tyson\ Pellatt\r\n\ Date\:June\ 13/2022\r\n
 comment1.params=
 comment1.target=Player()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n

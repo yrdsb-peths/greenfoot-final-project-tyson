@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GateV here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * First vertical gate
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class GateV extends Actor
 {

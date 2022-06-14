@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GateH here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Horizontal gate object
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class GateH extends Actor
 {

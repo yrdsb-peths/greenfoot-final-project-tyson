@@ -2,6 +2,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * World barrier that goes along the top and bottom of the screen
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class WallLength extends Actor
 {

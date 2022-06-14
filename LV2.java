@@ -1,8 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
+ * Level 2
  * Remove gate is the how the world will remove a gate from play 
  * when the player calls it.
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class LV2 extends LV
 {

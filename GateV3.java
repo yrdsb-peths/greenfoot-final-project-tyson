@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GateV3 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Third vertical gate
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class GateV3 extends Actor
 {

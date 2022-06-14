@@ -2,6 +2,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * World barrier that goes along the left and right of the screen
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class WallWidth extends Actor
 {

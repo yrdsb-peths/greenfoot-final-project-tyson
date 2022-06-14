@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class TitleSc here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Title screen.
+ * Press "space bar" to start game
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class TitleSc extends World
 {

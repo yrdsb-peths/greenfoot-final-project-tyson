@@ -1,9 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
+ * Player class
  * Else if in movement is so you can move in 2 directions at once to break main barriers
  * wallCollison(); is for any collison the player should be interacting with
  * the unlocks are for how the player interacts with keys on the map. 
+ * Author:Tyson Pellatt
+ * Date:June 13/2022
  */
 public class Player extends Actor
 {
