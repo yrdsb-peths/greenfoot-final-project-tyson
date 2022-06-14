@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=PortalEnd
-comment0.text=\r\n\ If\ player\ touching\ this\ portal,\ go\ to\ next\ level.\ world\ change\ item\r\n\ Author\:Tyson\ Pellatt\r\n\ Date\:June\ 13/2022\r\n
+comment0.text=\r\n\ If\ player\ touching\ this\ portal,\ go\ to\ next\ level.\ World\ change\ item\r\n\ Author\:Tyson\ Pellatt\r\n\ Date\:June\ 13/2022\r\n
 comment1.params=nextLevel
 comment1.target=PortalEnd(LV)
 comment2.params=
