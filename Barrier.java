@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Vertical Walls
+ * Vertical Walls type
  * Different sprite apperance per world/number
  * Author:Tyson Pellatt
  * Date:June 13/2022

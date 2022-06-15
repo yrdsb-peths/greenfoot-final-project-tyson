@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * First key
+ * First key to unlock the gate ont he second world
  * Author:Tyson Pellatt
  * Date:June 13/2022
  */

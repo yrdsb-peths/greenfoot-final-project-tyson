@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Horizontal Wall
+ * Horizontal Wall type
  * Different sprite apperance per world/number
  * Author:Tyson Pellatt
  * Date:June 13/2022

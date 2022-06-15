@@ -1,7 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * A key type that is small but can still be interacted with
+ * A key type that is small but can still be interacted with,
+ * removes the newly added gate after the Key3 in LV3
  * Author:Tyson Pellatt
  * Date:June 13/2022
  */

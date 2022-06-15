@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Second key
+ * Second key removes the final gate on LV3
  * Author:Tyson Pellatt
  * Date:June 13/2022
  */

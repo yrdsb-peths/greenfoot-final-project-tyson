@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Third key
+ * Third key removes the third gate in LV3
  * Author:Tyson Pellatt
  * Date:June 13/2022
  */
