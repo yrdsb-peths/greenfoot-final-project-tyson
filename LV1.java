@@ -106,5 +106,11 @@ public class LV1 extends LV
             time.setValue(timeLeft);
             gameTimer.mark();
         }
+        if(timeLeft == 0)
+        {
+            Label gameOverLable = new Label("Game Over!",100);
+            addObject(gameOverLable, 300, 200);
+            Greenfoot.stop();
+        }
     }
 }
