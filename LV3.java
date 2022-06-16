@@ -131,7 +131,7 @@ public class LV3 extends LV
         }
         if(timeLeft == 0)
         {
-            Label gameOverLable = new Label("Game Over!",100);
+            Label gameOverLable = new Label("Game Over!",75);
             addObject(gameOverLable, 300, 200);
             Greenfoot.stop();
         }
