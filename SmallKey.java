@@ -17,6 +17,6 @@ public class SmallKey extends Actor
     {
         // Add your action code here.
         setImage(key1);
-        key1.scale(5,5);
+        key1.scale(7,7);
     }
 }
